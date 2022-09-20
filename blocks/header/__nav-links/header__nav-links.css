@@ -1,0 +1,7 @@
+.header__nav-link {
+  margin-left: 45px;
+}
+
+.header__nav-links:nth-child(4n) {
+  margin-right: 240px;
+}

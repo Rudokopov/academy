@@ -1,0 +1,8 @@
+.map__flag {
+  position: absolute;
+  left: 847px;
+  top: 70px;
+  width: 231px;
+  height: 190px;
+  background-image: url(../../../images/map-marker\ 1.png);
+}

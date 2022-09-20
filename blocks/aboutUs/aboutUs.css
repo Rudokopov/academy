@@ -1,0 +1,6 @@
+.aboutUs {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 80px;
+  margin-bottom: 80px;
+}

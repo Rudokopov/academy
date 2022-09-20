@@ -1,0 +1,13 @@
+.footer__social-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 81px;
+  height: 81px;
+  background-color: #E1E1E1;
+  border-radius: 50%;
+}
+
+.footer__social-icon:not(:last-child) {
+  margin-right: 9px;
+}
