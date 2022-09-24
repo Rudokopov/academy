@@ -1,0 +1,12 @@
+.modal-wrap {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  width: 960px;
+  height: 590px;
+  box-sizing: border-box;
+  box-shadow: 0 0 50px 0 rgb(0 0 0 / 30%);
+  background-color: #fff;
+  padding: 63px 100px 0;
+  transform: translate(-50%, -50%);
+}

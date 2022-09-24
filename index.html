@@ -15,19 +15,19 @@
           <img class="logo logo_place_header" src="/images/nerds-logo.png" />
           <ul class="header__nav-list">
             <li class="header__nav-links">
-              <a href="#" class="header__nav-link">Студия</a>
+              <a href="#" class="link header__nav-link">Студия</a>
             </li>
             <li class="header__nav-links">
-              <a href="#" class="header__nav-link">Клиенты</a>
+              <a href="#" class="link header__nav-link">Клиенты</a>
             </li>
             <li class="header__nav-links">
-              <a href="#" class="header__nav-link">Магазин</a>
+              <a href="#" class="link header__nav-link">Магазин</a>
             </li>
             <li class="header__nav-links">
-              <a href="#" class="header__nav-link">Контакты</a>
+              <a href="#" class="link header__nav-link">Контакты</a>
             </li>
             <li>
-              <a href="#" class="header__nav-link"
+              <a href="#" class="link header__nav-link"
                 ><span
                   ><img
                     class="header__nav-link-icon"
@@ -43,7 +43,7 @@
           Математически выверенный дизайн для вашего сайта или мобильного
           приложения.
         </p>
-        <a href="#" class="header__button button button_size_l button_color_red"
+        <a href="#" class="link__button header__button button button_size_l button_color_red"
           >Узнать больше</a
         >
         <div class="header__ilustration"></div>
@@ -64,7 +64,7 @@
               </p>
               <a
                 href=""
-                class="card__button button button_size_s button_color_red"
+                class="link__button card__button button button_size_s button_color_red"
                 >Заказать</a
               >
             </li>
@@ -80,7 +80,7 @@
               </p>
               <a
                 href=""
-                class="card__button button button_size_s button_color_green"
+                class="link__button card__button button button_size_s button_color_green"
                 >Заказать</a
               >
             </li>
@@ -96,7 +96,7 @@
               </p>
               <a
                 href=""
-                class="card__button button button_size_s button_color_yellow"
+                class="link__button card__button button button_size_s button_color_yellow"
                 >Заказать</a
               >
             </li>
@@ -180,36 +180,41 @@
         <section class="resources">
           <ul class="resources__list">
             <li>
-              <img
+              <a href="" class="link"><img
                 src="/images/logo/logo_htmlacademy 1.png"
                 alt="Логотип HTML академии"
                 class="resources__logo"
-              />
+              /></a>
             </li>
             <li>
+              <a href="" class="link">
               <img
                 src="/images/logo/logo-2 1.png"
                 alt="Логотип Бородински"
                 class="resources__logo"
-              />
+              /></a>
             </li>
             <li>
+              <a href="" class="link">
               <img
                 src="/images/logo/logo-3 1.png"
                 alt="Логотип Мишка"
                 class="resources__logo"
               />
-            </li>
-            <li>
+            </li></a>
+            <li><a href="" class="link">
               <img
                 src="/images/logo/logo-4 1.png"
                 alt="Логотип Пинк"
                 class="resources__logo"
-              />
+              /></a>
             </li>
           </ul>
         </section>
         <section class="map">
+          <div id="map__yandex" class="map__yandex">
+            <script src="https://api-maps.yandex.ru/2.1/?apikey=ab312b6e-de15-4c80-b3b8-a0e86f72ffdb&lang=ru_RU"></script>
+          </div>
           <div class="map__info">
             <h2 class="map__info-title">NЁRDS DESIGN STUDIO</h2>
             <p class="map__info-description">
@@ -217,13 +222,53 @@
             </p>
             <p class="map__info-description">+7 800 555-86-28</p>
             <a
-              href="#"
-              class="map__button button button_size_m button_color_red"
+              id="btn__open-popup"
+              class="link__button map__button button button_size_m button_color_red"
               >Напишите нам</a
             >
           </div>
-          <div class="map__flag"></div>
+          <!-- <div class="map__flag"></div> -->
         </section>
+        <!-- Pop-Up -->
+        <div id="modal" class="modal modal_active">
+          <div class="modal-wrap">
+            <button id="btn__close-popup" class="link modal__btn-close"></button>
+            <h2 class="modal__title">Напишите нам</h2>
+            <form action="" class="modal__form">
+              <fieldset class="modal__main">
+                <div class="modal__input-wrap">
+                  <label for="" class="modal__label">Ваше имя: </label>
+                  <input
+                    required
+                    type="text"
+                    class="modal__input"
+                    name="name"
+                    placeholder="Имя Фамилия"
+                  />
+                </div>
+                <div class="modal__input-wrap">
+                  <label for="email" class="modal__label">Ваш email: </label>
+                  <input
+                    required
+                    type="email"
+                    class="modal__input"
+                    name="email"
+                    placeholder="email@example.com"
+                  />
+                </div>
+              </fieldset>
+              <fieldset class="modal__main-additional">
+                <label for="text" class="modal__label">Текст письма: </label>
+                <textarea
+                  type="text"
+                  class="modal__text"
+                  placeholder="В свободной форме"
+                /></textarea>
+              </fieldset>
+              <input class="link__button modal__btn-form button button_size_l button_color_red" type="submit" />
+            </form>
+          </div>
+        </div>
       </main>
       <footer class="footer">
         <div class="footer_place_left">
@@ -253,5 +298,8 @@
         </div>
       </footer>
     </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="/script/popup.js"></script>
+    <script src="/script/map.js"></script>
   </body>
 </html>

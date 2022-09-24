@@ -1,0 +1,8 @@
+.map__yandex {
+  width: 1440px;
+  height: 416px;
+}
+
+[class*="copyrights-pane"] {
+	display: none !important;
+}

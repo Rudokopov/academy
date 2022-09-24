@@ -1,5 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/link/link.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place/logo_place_footer.css);
 @import url(../blocks/logo/_place/logo_place_header.css);
@@ -11,6 +12,7 @@
 @import url(../blocks/button/_size/button_size_l.css);
 @import url(../blocks/button/_size/button_size_m.css);
 @import url(../blocks/button/_size/button_size_s.css);
+@import url(../blocks/link/__button/link__button.css);
 @import url(../blocks/header/__button/header__button.css);
 @import url(../blocks/header/__nav-link-icon/header__nav-link-icon.css);
 @import url(../blocks/header/__nav-column/header__nav-column.css);
@@ -51,6 +53,7 @@
 @import url(../blocks/map/__info-description/map__info-description.css);
 @import url(../blocks/map/__info-title/map__info-title.css);
 @import url(../blocks/map/__info/map__info.css);
+@import url(../blocks/map/__yandex/map__yandex.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__column/footer__column.css);
 @import url(../blocks/footer/__social-link/footer__social-link.css);
@@ -59,3 +62,16 @@
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
 @import url(../blocks/footer/__title/footer__title.css);
 @import url(../blocks/footer/__subtitle/footer__subtitle.css);
+@import url(../blocks/modal-wrap/modal-wrap.css);
+@import url(../blocks/modal/modal.css);
+@import url(../blocks/modal/__btn-close/modal__btn-close.css);
+@import url(../blocks/modal/__btn-form/modal__btn-form.css);
+@import url(../blocks/modal/__form/modal__form.css);
+@import url(../blocks/modal/__input-wrap/modal__input-wrap.css);
+@import url(../blocks/modal/__label/modal__label.css);
+@import url(../blocks/modal/__main-additional/modal__main-additional.css);
+@import url(../blocks/modal/__main/modal__main.css);
+@import url(../blocks/modal/__text/modal__text.css);
+@import url(../blocks/modal/__title/modal__title.css);
+@import url(../blocks/modal/_active/modal__active.css);
+@import url(../blocks/modal/__input/modal__input.css);

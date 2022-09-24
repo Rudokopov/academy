@@ -1,0 +1,7 @@
+.modal__main {
+  padding: 0;
+  margin: 0 0 61px 0;
+  display: flex;
+  justify-content: space-between;
+  border: none;
+}

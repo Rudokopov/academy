@@ -1,0 +1,8 @@
+.modal__input {
+  margin: 0;
+  padding: 16px;
+  width: 100%;
+  height: 50px;
+  border: 2px solid #D7DCDE;
+  box-sizing: border-box;
+}

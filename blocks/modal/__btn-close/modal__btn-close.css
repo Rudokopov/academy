@@ -1,0 +1,13 @@
+.modal__btn-close {
+  position: absolute;
+  cursor: pointer;
+  top: 78px;
+  right: 90px;
+  border: none;
+  background-color: transparent;
+  margin: 0;
+  width: 21px;
+  height: 21px;
+  background-image: url(../../../images/close-cross\ 1.png);
+  background-size: cover;
+}
